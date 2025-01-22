@@ -165,21 +165,21 @@ INSERT INTO Cargo (nome) VALUES
 ('Segurança');
 
 INSERT INTO Funcionario (cpf, nome, cargo, salario, cpfgerente) VALUES
-('20101010101', 'José Mendes', 1, 5000, NULL),
-('20202020202', 'Luiza Teixeira', 2, 2500, '20101010101'),
-('20303030303', 'Miguel Duarte', 3, 2000, '20101010101'),
-('20404040404', 'Clara Nunes', 2, 2500, '20101010101'),
-('20505050505', 'André Lopes', 4, 2200, '20101010101'),
-('20606060606', 'Beatriz Farias', 1, 5000, NULL),
-('20707070707', 'Otávio Vieira', 3, 2000, '20606060606'),
-('20808080808', 'Sofia Freitas', 2, 2500, '20606060606'),
-('20909090909', 'Daniel Araújo', 4, 2200, '20606060606'),
-('21010101010', 'Laura Correia', 3, 2000, '20101010101'),
-('21111111111', 'Felipe Pinto', 4, 2200, '20101010101'),
-('21212121212', 'Aline Cardoso', 2, 2500, '20606060606'),
-('21313131313', 'Gustavo Neves', 3, 2000, '20606060606'),
-('21414141414', 'Renata Santiago', 4, 2200, '20101010101'),
-('21515151515', 'Eduardo Moraes', 2, 2500, '20606060606');
+('20101010101', 'José Mendes',      'Gerente',       5000, NULL),
+('20202020202', 'Luiza Teixeira',   'Recepcionista', 2500, '20101010101'),
+('20303030303', 'Miguel Duarte',    'Camareiro(a)',  2000, '20101010101'),
+('20404040404', 'Clara Nunes',      'Recepcionista', 2500, '20101010101'),
+('20505050505', 'André Lopes',      'Segurança',     2200, '20101010101'),
+('20606060606', 'Beatriz Farias',   'Gerente',       5000, NULL),
+('20707070707', 'Otávio Vieira',    'Camareiro(a)',  2000, '20606060606'),
+('20808080808', 'Sofia Freitas',    'Recepcionista', 2500, '20606060606'),
+('20909090909', 'Daniel Araújo',    'Segurança',     2200, '20606060606'),
+('21010101010', 'Laura Correia',    'Camareiro(a)',  2000, '20101010101'),
+('21111111111', 'Felipe Pinto',     'Segurança',     2200, '20101010101'),
+('21212121212', 'Aline Cardoso',    'Recepcionista', 2500, '20606060606'),
+('21313131313', 'Gustavo Neves',    'Camareiro(a)',  2000, '20606060606'),
+('21414141414', 'Renata Santiago',  'Segurança',     2200, '20101010101'),
+('21515151515', 'Eduardo Moraes',   'Recepcionista', 2500, '20606060606');
 
 INSERT INTO Contrato (url_pdf, cpf_funcionario, data_inicio, data_fim) VALUES
 ('https://miniio.bstay/contratos/contrato_20101010101.pdf', '20101010101', '2023-01-01', NULL),
